@@ -1,0 +1,53 @@
+# STM32F407 ile Kayan LED Animasyonu (Kara Şimşek Efekti)
+
+Bu proje, **STM32F407-Discovery** kartı üzerinde 4 adet LED kullanarak klasik **Kara Şimşek (Knight Rider)** benzeri bir ileri-geri kayan ışık animasyonu gerçekleştirir.
+
+Proje, STM32CubeIDE ve HAL kütüphanesi kullanılarak geliştirilmiştir. Temel GPIO (General Purpose Input/Output) ve `HAL_Delay` fonksiyonlarının pratik bir uygulamasıdır.
+
+> **İpucu:** Bu projeyi kart üzerinde çalıştırıp kısa bir videosunu çekin, [ezgif.com](https://ezgif.com/) gibi bir sitede GIF'e dönüştürün ve bu satırın yerine `![Animasyon](GIF_LINKINIZ)` olarak ekleyin. Bu, projenizi "canlandırır".
+
+---
+
+### 🎯 Proje Senaryosu
+
+Animasyon, 4 LED üzerinde sıralı bir hareketle çalışır:
+1.  LED'ler `PA1`'den `PA4`'e doğru sırayla yanar (Sağa hareket).
+2.  LED'ler `PA3`'ten `PA2`'ye doğru sırayla yanar (Sola hareket).
+3.  Döngü başa döner.
+
+**Zamanlama:**
+* **LED Yanma Süresi:** 200 ms
+* **LED Sönme Süresi:** 100 ms (Bir sonraki LED'e geçmeden önce)
+
+---
+
+### 🛠️ Gerekli Donanım
+
+* **1x** STM32F407-Discovery Geliştirme Kartı
+* **4x** Tercih edilen renkte LED
+* **4x** 220 Ohm Direnç (LED'ler için ön direnç)
+* Breadboard ve Jumper kablolar
+
+---
+
+### 🔌 Devre Şeması
+
+LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise direnç üzerinden GND hattına bağlanmalıdır.
+
+| LED | Direnç | STM32 Pini |
+| :--- | :--- | :--- |
+| LED 1 | 220 Ohm | `PA1` |
+| LED 2 | 220 Ohm | `PA2` |
+| LED 3 | 220 Ohm | `PA3` |
+| LED 4 | 220 Ohm | `PA4` |
+| (Tümü) | - | `GND` |
+
+---
+
+### 🚀 Nasıl Kullanılır?
+
+1.  Bu depoyu klonlayın (`git clone ...`).
+2.  STM32CubeIDE yazılımını açın.
+3.  `File > Open Projects from File System...` seçeneği ile proje klasörünü seçin.
+4.  Proje içindeki `.ioc` dosyasını açarak pin yapılandırmasını inceleyebilirsiniz.
+5.  Derleyin (Build) ve ST-Link V2 üzerinden kartınıza yükleyin (Run).
