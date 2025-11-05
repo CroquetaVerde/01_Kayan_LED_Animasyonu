@@ -11,7 +11,7 @@ Proje, STM32CubeIDE ve HAL kütüphanesi kullanılarak geliştirilmiştir. Temel
 
 Animasyon, 4 LED üzerinde sıralı bir hareketle çalışır:
 1.  LED'ler `PA1`'den `PA4`'e doğru sırayla yanar (Sağa hareket).
-2.  LED'ler `PA3`'ten `PA2`'ye doğru sırayla yanar (Sola hareket).
+2.  LED'ler `PA4`'den `PA1`'ye doğru sırayla yanar (Sola hareket).
 3.  Döngü başa döner.
 
 **Zamanlama:**
@@ -41,6 +41,11 @@ LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise d
 | LED 4 | 220 Ohm | `PA4` |
 | (Tümü) | - | `GND` |
 
+![Pin Bağlantıları](Belgeler/Pin_Baglantilari.png)
+
+### Kod Bloğu
+
+![Kod Bloğu](Belgeler/Kod_Blogu.png)
 ---
 
 ### 🚀 Nasıl Kullanılır?
