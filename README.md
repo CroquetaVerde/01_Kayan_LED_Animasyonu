@@ -41,7 +41,7 @@ LED'lerin anot (uzun) bacakları STM32 pinlerine, katot (kısa) bacakları ise d
 | LED 4 | 220 Ohm | `PA4` |
 | (Tümü) | - | `GND` |
 
-![Pin Bağlantıları](Belgeler/Pin_Baglantilari.png)
+![Pin Bağlantıları](Pin_Baglantilari.png)
 
 ### Kod Bloğu
 
